@@ -1,0 +1,21 @@
+#contenedor {
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    height: 150px;
+    background-color: aqua;
+}
+nav {
+    height: 50px;
+    background-color: lightblue;
+}
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    height: 500px;
+}
+section, aside {
+    margin-left: 5px;
+    background-color: lightgreen;
+}

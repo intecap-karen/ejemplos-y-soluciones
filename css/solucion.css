@@ -1,0 +1,34 @@
+#contenedor {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "ingresos egresos aside";
+    grid-template-rows: 150px 50px 600px;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+nav {
+    grid-area: nav;
+    background-color: lightblue;
+}
+
+#ingresos {
+    grid-area: ingresos;
+    background-color: lightgreen;
+}
+
+#egresos {
+    grid-area: egresos;
+    background-color: lightcoral;
+}
+
+aside {
+    grid-area: aside;
+    background-color: lightyellow;
+}
