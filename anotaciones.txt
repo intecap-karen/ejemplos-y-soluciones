@@ -1,0 +1,38 @@
+metodo de George Polya 
+
+1 Entender el problema
+2 Elaborar un plan 
+3 Ejecutar el plan 
+4 Evaluar la solución 
+
+En programación 
+
+Entender el problema
+    -entradas (lo que necesito)
+    - Procesos (lo que debo hacer)
+    - Salidas (Respuestas )
+
+Crear un plan:
+    -Solicitar el valor al usuario 
+    -
+
+js en ciclo " for "
+    -of caracteres (el texto)
+    -in posicionamiento (0 o 1, etc)
+
+BACK END 
+Unir tablas con relacion de llave primaria y llave foranea
+SELECT 
+	ciudadanos.dpi,
+	ciudadanos.apellido,
+	ciudadanos.nombre,
+	departamentos.nombre_depto,
+	municipios.nombre_municipio
+FROM 
+	departamentos INNER JOIN municipios
+	ON departamentos.cod_depto = municipios.cod_depto
+	INNER JOIN ciudadanos
+	ON municipios.cod_muni=ciudadanos.cod_muni
+WHERE 
+departamentos.nombre_depto="Guatemala";
+    
